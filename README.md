@@ -11,6 +11,7 @@ An up to date list on all series is available at: <a href="https://docs.google.c
 Operating System: Ubuntu 18.04
 
 Text Editor: VIM
+
 Python Version: Python3
 
 ## Concepts covered in each video
