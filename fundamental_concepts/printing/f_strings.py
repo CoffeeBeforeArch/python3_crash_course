@@ -22,3 +22,10 @@ second_half = "with a second half!"
 
 # Print concatenated strings
 print(first_half + second_half)
+
+# Store a dividing line character (-)
+divider = "-"
+dividing_line = "{}"
+
+# Multiply operator (*) copys a string N times (10 in this case)
+print(dividing_line.format(divider * 10))
