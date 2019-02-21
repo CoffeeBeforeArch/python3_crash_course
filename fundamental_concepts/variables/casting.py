@@ -13,9 +13,12 @@ c = 10
 d = 4
 
 # Division of integers returns only the quotient
-print(c / d)
+print(c // d)
 
 # Cast as a float to get the result as a decimal
 # float(c / d) doesn't work because it only casts the result 
 # (the quotient) as a floating point number
 print(float(c) / float(d))
+
+# Single slash will promote to floating point values
+print(c / d)
