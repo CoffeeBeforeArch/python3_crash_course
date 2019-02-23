@@ -17,3 +17,7 @@ Python Version: Python3
 ## Concepts covered in each video
 | Video | Concepts | Files |
 | ----- | -------- | ----- |
+| <a href=https://youtu.be/dyCQrZfoMUQ>Python3 Crash Course: Hello World!</a> | Compiler vs. Interpreter, Printing | <a href=https://github.com/CoffeeBeforeArch/python3_crash_course/blob/master/fundamental_concepts/printing/hello_world.py>hello_world.py</a> |
+| <a href=https://youtu.be/8Txatny9_ng>Python3 Crash Course: Variables and Operators</a> | Variables, Operators, Dynamic Typing | <a href=https://github.com/CoffeeBeforeArch/python3_crash_course/blob/master/fundamental_concepts/variables/variables_and_operators.py>variables_and_operators.py</a> |
+| <a href=https://youtu.be/8Txatny9_ng>Python3 Crash Course: Data Types</a> | Fundamental Data Types, type() Function | <a href=https://github.com/CoffeeBeforeArch/python3_crash_course/blob/master/fundamental_concepts/variables/data_types.py>data_types.py</a> |
+| <a href=https://youtu.be/3q-wUu3pmsI>Python3 Crash Course: Casting</a> | Type Casting, Implicit Casting | <a href=https://github.com/CoffeeBeforeArch/python3_crash_course/blob/master/fundamental_concepts/variables/casting.py>casting.py</a> |
