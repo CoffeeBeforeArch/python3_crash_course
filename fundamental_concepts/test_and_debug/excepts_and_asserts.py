@@ -59,7 +59,7 @@ try:
     print(10/0)
 except:
     print("Raise our own exception with a message")
-    #raise ZeroDivisionError("We can't divide 10 by 0!")
+    raise ZeroDivisionError("We can't divide 10 by 0!")
 
 # We don't just have to wait for an error! We can do defensive
 # programming using assertions!
