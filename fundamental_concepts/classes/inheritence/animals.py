@@ -1,7 +1,6 @@
 # This script shows off classes with inheritance in Python3
 # By: Nick from CoffeeBeforeArch
 
-# 
 class Animal():
     def __init__(self, age=0, name=""):
         self.age = age
@@ -44,7 +43,7 @@ class Person(Animal):
 
 class Student(Person):
     # Call base class init method
-    def __init__(self, name, age, major=None):
+    def __init__(self, age, name, major=None):
         Person.__init__(self, age, name)
         # Add new data attribute
         self.major = major
@@ -56,13 +55,13 @@ class Student(Person):
         print("Hey there, fella!")
     # Override __str__ method (again)
     def __str__(self):
-        return "student:"+str(self.name)+":"+str(self.age)+":"+str(len(self.friends))+":"+str(self.major)
+        return "Student:"+str(self.name)+":"+str(self.age)+":"+str(len(self.friends))+":"+str(self.major)
 
 # Make a class using each of our four classes
-basic_animal = Animal("Teddy", 3)
-cat = Cat("Sprinkles", 7)
-person = Person("John von Neumann", 30)
-student = Student("Nick", 24, "Computer Engineering")
+basic_animal = Animal(3, "Teddy")
+cat = Cat(7, "Sprinkles")
+person = Person(30, "John von Neumann")
+student = Student(24, "Nick", "Computer Engineering")
 
 # Any class can use the set_age method from the base class
 basic_animal.set_age(1)
