@@ -10,7 +10,7 @@ import numpy as np
 
 # Create a matrix of random numbers and set it to be
 # 32-bit floats
-a = np.random.randn(65536)
+a = np.random.randn(16)
 a = a.astype(np.float32)
 
 # Allocate space on the GPU
@@ -29,17 +29,15 @@ module = SourceModule("""
 
 # Launch the kernel
 function = module.get_function("double_array")
-#function(a_gpu, block=(256, 1, 1), grid=(256, 1, 1))
+function(a_gpu, block=(16, 1, 1), grid=(1, 1, 1))
 
 # Place holder for the result
-#a_doubled = np.empty_like(a)
+a_doubled = np.empty_like(a)
 
 # Copy the result back from the GPU
-#cuda.memcpy_dtoh(a_doubled, a_gpu)
-
-a *= 2
+cuda.memcpy_dtoh(a_doubled, a_gpu)
 
 # Print the original and result
-#print(a)
-#print(a_doubled)
+print(a)
+print(a_doubled)
 
