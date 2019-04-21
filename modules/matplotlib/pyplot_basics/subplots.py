@@ -27,7 +27,7 @@ plt.subplot(133)
 plt.plot(labels, values)
 
 # Add a title to the figure
-plt.suptitle("The different plots on the same figure")
+plt.suptitle("Three different plots on the same figure")
 
 # Show the figure
 plt.show()
