@@ -35,3 +35,6 @@ Python Version: Python3
 | <a href=https://youtu.be/o6K9y3UCJIU>Python3 Crash Course: Exceptions and Assertions</a> | Exceptions, Assertions, Defensive Programming | <a href=https://github.com/CoffeeBeforeArch/python3_crash_course/blob/master/fundamental_concepts/test_and_debug/excepts_and_asserts.py>excepts_and_asserts.py</a> |
 | <a href=https://youtu.be/VGc4xbCTUmI>Python3 Crash Course: Simple Classes</a> | Classes, Object Oriented Programming, Encapsulation | <a href=https://github.com/CoffeeBeforeArch/python3_crash_course/blob/master/fundamental_concepts/classes/simple_class.py>simple_class.py</a> |
 | <a href=https://youtu.be/MCtFLqx8e-I>Python3 Crash Course: Inheritance</a> | Object Oriented Programming, Inheritance | <a href=https://github.com/CoffeeBeforeArch/python3_crash_course/blob/master/fundamental_concepts/classes/inheritence/animals.py>inheritance.py</a> |
+| <a href=https://youtu.be/LoVxL9pd5mY>Python3 Crash Course: Pyplot Basics</a> |  | <a href=></a> |
+| <a href=https://youtu.be/plp-TP7Zveg>Python3 Crash Course: Sub-Plots</a> |  | <a href=></a> |
+| <a href=https://youtu.be/LUao2-rVE7w>Python3 Crash Course: Introduction to Pycuda</a> |  | <a href=></a> |
