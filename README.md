@@ -13,6 +13,8 @@ Text Editor: VIM
 
 Python Version: Python3
 
+Modules: sys, matplotlib, pycuda
+
 ## Concepts covered in each video
 | Video | Concepts | Files |
 | ----- | -------- | ----- |
