@@ -73,3 +73,4 @@ Modules: sys, matplotlib, pycuda
 | Video | Concepts | Files |
 | ----- | -------- | ----- |
 | <a href=https://youtu.be/o6K9y3UCJIU>Python3 Crash Course: Exceptions and Assertions</a> | Exceptions, Assertions, Defensive Programming | <a href=https://github.com/CoffeeBeforeArch/python3_crash_course/blob/master/fundamental_concepts/test_and_debug/excepts_and_asserts.py>excepts_and_asserts.py</a> |
+| <a href=https://youtu.be/Aelhy5Qw_xU>Python3 Crash Course: List Comprehension</a> | List Comprehension | <a href=https://github.com/CoffeeBeforeArch/python3_crash_course/blob/master/fundamental_concepts/misc/list_comprehension.py>list_comprehension.py</a> |
