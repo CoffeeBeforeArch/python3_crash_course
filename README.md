@@ -1,5 +1,5 @@
 # Python Crash Course
-This repository contains all code from the YouTube series "Python Crash Course" by CoffeeBeforeArch. The general flow this course was taken from the book Learn Python the Hard Way, and MOOC MIT 6.00.1x.
+This repository contains all code from the YouTube series "Python Crash Course" by CoffeeBeforeArch.
 
 ## Contact
 
